@@ -1,6 +1,8 @@
 package com.example;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Utils {
@@ -51,4 +53,7 @@ public class Utils {
         return dist;
     }
 
+    public static char[] getEnglishAlphabet() {
+        return "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+    }
 }
